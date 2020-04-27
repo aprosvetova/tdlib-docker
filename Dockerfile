@@ -34,7 +34,3 @@ RUN php SplitSource.php --undo
 FROM alpine
 
 COPY --from=builder /tmp/_build_tdlib/tdlib/ /tdlib/
-
-RUN apk add --no-cache \
-    openssl-dev \
-    zlib-dev
