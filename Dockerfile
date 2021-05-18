@@ -13,7 +13,7 @@ RUN apk add --no-cache \
 
 WORKDIR /tmp/_build_tdlib/
 
-RUN git clone https://github.com/tdlib/td.git /tmp/_build_tdlib/ --branch v1.6.0
+RUN git clone https://github.com/tdlib/td.git /tmp/_build_tdlib/ --branch v1.7.0
 
 RUN mkdir build
 WORKDIR /tmp/_build_tdlib/build/
